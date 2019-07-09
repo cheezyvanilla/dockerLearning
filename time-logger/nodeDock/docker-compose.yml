@@ -1,0 +1,10 @@
+version: "3"
+services:
+ web:
+  image: cheezyvanilla/node-mysql
+  ports:
+   - "49160:8080"
+ python-logger:
+  image: python-sql
+networks:
+ webnet:
